@@ -1,0 +1,46 @@
+<!--
+  Generated template for the Pelicula5Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="secondary">
+    <ion-title>LA CASA DEL RELOJ EN LA PARED</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <img src="../../assets/films/lacasadelrelojenlapared.jpg" alt="coldwar">
+    <ion-list>
+      <ion-item>
+        <ion-label>Seleccione la hora:</ion-label>
+        <ion-select>
+          <ion-option value="1730" [selected]="true">17:30</ion-option>
+          <ion-option value="1745">17:45</ion-option>
+          <ion-option value="1930">19:30</ion-option>
+          <ion-option value="1945">19:45</ion-option>
+          <ion-option value="2230">22:30</ion-option>
+          <ion-option value="2245">22:45</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+    <ion-list>
+      <ion-item>
+        <ion-label>Seleccione la cantidad:</ion-label>
+        <ion-select>
+          <ion-option value="0" [selected]="true">0</ion-option>
+          <ion-option value="1">1</ion-option>
+          <ion-option value="2">2</ion-option>
+          <ion-option value="3">3</ion-option>
+          <ion-option value="4">4</ion-option>
+          <ion-option value="5">5</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <button ion-button color="secondary" [outline]="true" [round]="true" class="alert-button" block (click)="alertPush()">COMPRAR ENTRADAS</button>
+  </ion-content>

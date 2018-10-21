@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title style="text-align: center">
+      <ion-icon name='film' item-start style="color: white"></ion-icon>
+      CONTACTO
+      <ion-icon name='film' item-start style="color: white"></ion-icon>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="logo-twitter" color="dark" item-start></ion-icon>
+        <button ion-button (click) = "followTwitter()" class="boton">{{twitter}}</button>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+
+  <ion-card>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="logo-instagram" color="dark" item-start></ion-icon>
+        <button ion-button (click) = "followInsta()" class="boton">{{instagram}}</button>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+
+  <ion-card>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="logo-facebook" color="dark" item-start></ion-icon>
+        <button ion-button (click) = "followFace()" class="boton">{{facebook}}</button>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>

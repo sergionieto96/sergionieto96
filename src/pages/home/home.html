@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title style="text-align: center">
+      <ion-icon name='film' item-start style="color: white"></ion-icon>
+      MULTICINES LAS VIAS
+      <ion-icon name='film' item-start style="color: white"></ion-icon>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div (click)="abrirPag()">
+    <ion-card>
+      <img src="../../assets/imgs/icono-cine.png"/>
+      <ion-card-content style="text-align: justify">
+        <p>Dispone de 14 modernas salas de cine, todas en formato digital y 3 de ellas en formato 4K,
+          lo último en innovación en tecnología, con pantallas de hasta 120 m2 y capacidad de hasta 385 espectadores,
+          podeis disfrutar en nuestra galería de inmejorables servicios de hostelería.
+        </p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-content>
+        <p>
+          Edited by: {{nombre}}
+        </p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
